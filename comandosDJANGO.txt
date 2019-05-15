@@ -1,0 +1,9 @@
+pip3 install virtualenv
+virtualenv venv
+django-admin startproject ProjectoBarberia
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+venv\Scripts\activate
+venv\Scripts>deactivate.bat
