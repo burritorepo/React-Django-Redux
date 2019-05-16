@@ -1,9 +1,13 @@
-pip3 install virtualenv
-virtualenv venv
-django-admin startproject ProjectoBarberia
-python manage.py runserver
-python manage.py migrate
-python manage.py makemigrations
-python manage.py migrate
-venv\Scripts\activate
+pip3 install virtualenv [installed globally]
+virtualenv venv [root folder]
+venv\Scripts\activate [run this before installing django]
 venv\Scripts>deactivate.bat
+django-admin startproject ProjectoBarberia [root folder]
+python manage.py runserver [project folder]
+python manage.py migrate [project folder]
+python manage.py makemigrations [project folder]
+python manage.py migrate [project folder]
+
+Create app:
+python manage.py startapp frontend [project folder]
+
